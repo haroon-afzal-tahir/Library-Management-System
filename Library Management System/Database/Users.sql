@@ -2,9 +2,9 @@ USE [Library Management System]
 
 CREATE TABLE Users (
 
-	USER_ID INT PRIMARY KEY,
-	USERNAME VARCHAR(20),
-	PASSWORD VARCHAR (20),
+	[User ID] INT PRIMARY KEY,
+	Username VARCHAR(20),
+	Password VARCHAR(20),
 	/*
 		(pk) User_ID, Username, Password
 	*/
