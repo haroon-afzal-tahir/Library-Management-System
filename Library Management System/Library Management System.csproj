@@ -128,7 +128,7 @@
     <Content Include="Database\Information.sql" />
     <Content Include="Database\Library Management System.sql" />
     <Content Include="Database\Membership.sql" />
-    <Content Include="Database\Person.sql" />
+    <Content Include="Database\Users.sql" />
     <Content Include="Database\Room Booking.sql" />
     <Content Include="Database\Rooms.sql" />
     <Content Include="Database\Student.sql" />
