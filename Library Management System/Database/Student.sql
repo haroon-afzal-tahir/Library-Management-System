@@ -8,6 +8,8 @@ CREATE TABLE Student (
 		STUDENT_MEMBERSHIP INT FOREIGN KEY REFERENCES MEMBERSHIP(ID),
 		STUDENT_PHONE_NO VARCHAR(13),
 		PICTURE_PATH VARCHAR(30),
+	
+	
 	/*
 	
 		Student_ID, Name, Age, CNIC, Membership, Phone_Number, Picture_Path
