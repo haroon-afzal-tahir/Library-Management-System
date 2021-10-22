@@ -1,7 +1,10 @@
 USE [Library Management System]
 
 CREATE TABLE [Book Issue] (
-    User_ID INT FOREIGN KEY REFERENCES PERSON(person.)
+    User_ID INT FOREIGN KEY REFERENCES USERS(USER_ID),
+	BOOK_ID INT FOREIGN KEY REFERENCES BOOKS([BooK ID]),
+	ISSUE_DATE DATE,
+	DUE_DATE DATE,
 	/*
 		User_ID, Book_ID, Issue_Date, Due_Date
 	*/
