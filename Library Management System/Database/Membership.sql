@@ -5,7 +5,7 @@ CREATE TABLE Membership (
 		Membership_ID, Student_ID, Dates(Start, End)
 	*/
 	[Membership ID] INT NOT NULL PRIMARY KEY,
-	[Student ID] INT FOREIGN KEY REFERENCES Student([Student ID]),
+	[User ID] INT FOREIGN KEY REFERENCES Users([User ID]),
 	[Start Date] DATE,
 	[End Date] DATE,
 )
