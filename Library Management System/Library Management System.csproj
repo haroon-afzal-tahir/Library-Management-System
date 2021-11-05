@@ -170,6 +170,11 @@
     <Content Include="WebForms\Admin\Ordering Request.aspx" />
     <Content Include="WebForms\Login.aspx" />
     <Content Include="WebForms\Signup.aspx" />
+    <Content Include="WebForms\Test WebForms\Alerts.aspx" />
+    <Content Include="WebForms\Test WebForms\Badges.aspx" />
+    <Content Include="WebForms\Test WebForms\BreadCrumbs.aspx" />
+    <Content Include="WebForms\Test WebForms\Button Groups.aspx" />
+    <Content Include="WebForms\Test WebForms\Buttons.aspx" />
     <Content Include="WebForms\Users\Book Discussion Room.aspx" />
     <Content Include="WebForms\Users\Book Issue.aspx" />
     <Content Include="WebForms\Users\Dashboard.aspx" />
@@ -377,6 +382,41 @@
     </Compile>
     <Compile Include="WebForms\Signup.aspx.designer.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Alerts.aspx.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Alerts.aspx.designer.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Badges.aspx.cs">
+      <DependentUpon>Badges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Badges.aspx.designer.cs">
+      <DependentUpon>Badges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\BreadCrumbs.aspx.cs">
+      <DependentUpon>BreadCrumbs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\BreadCrumbs.aspx.designer.cs">
+      <DependentUpon>BreadCrumbs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Button Groups.aspx.cs">
+      <DependentUpon>Button Groups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Button Groups.aspx.designer.cs">
+      <DependentUpon>Button Groups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Buttons.aspx.cs">
+      <DependentUpon>Buttons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Test WebForms\Buttons.aspx.designer.cs">
+      <DependentUpon>Buttons.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Users\Book Discussion Room.aspx.cs">
       <DependentUpon>Book Discussion Room.aspx</DependentUpon>
