@@ -223,6 +223,7 @@
     <Content Include="WebForms\Admin\BookInventory.aspx" />
     <Content Include="WebForms\Admin\Dashboard.aspx" />
     <Content Include="WebForms\Admin\Profile.aspx" />
+    <Content Include="WebForms\Admin\Room Inventory.aspx" />
     <Content Include="WebForms\Admin\Sign-In.aspx" />
     <Content Include="WebForms\Admin\Sign-Up.aspx" />
     <Content Include="WebForms\Admin\Management.aspx" />
@@ -618,6 +619,13 @@
     </Compile>
     <Compile Include="WebForms\Admin\Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Admin\Room Inventory.aspx.cs">
+      <DependentUpon>Room Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Admin\Room Inventory.aspx.designer.cs">
+      <DependentUpon>Room Inventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Admin\Sign-In.aspx.cs">
       <DependentUpon>Sign-In.aspx</DependentUpon>
