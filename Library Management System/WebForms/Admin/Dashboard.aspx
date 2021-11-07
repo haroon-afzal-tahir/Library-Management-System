@@ -320,7 +320,6 @@
 				<div class="col-4 text-end">
 				  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
 					  <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
-					  <%--<img src="../../assets/img/meeting-room.png" aria-hidden="true" width="30" height="30" />--%>
 				  </div>
 				</div>
 			  </div>
@@ -377,20 +376,19 @@
 			  <div class="row">
 				<div class="col-lg-6">
 				  <div class="d-flex flex-column h-100">
-					<p class="mb-1 pt-2 text-bold">Built by developers</p>
-					<h5 class="font-weight-bolder">Soft UI Dashboard</h5>
-					<p class="mb-5">From colors, cards, typography to complex elements, you will find the full documentation.</p>
+					<h5 class="font-weight-bolder">Books Inventory</h5>
+					<p class="mb-5">View Your Books Inventory By Clicking Here</p>
 					<a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-					  Read More
+					  View Inventory
 					  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
 					</a>
 				  </div>
 				</div>
 				<div class="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
 				  <div class="bg-gradient-primary border-radius-lg h-100">
-					<img src="../../assets/img/shapes/waves-white.svg" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves">
+					<img src="../../assets/img/shapes/waves-white.svg" class="position-absolute h-100 w-50 top-0 d-lg-block d-none" alt="waves"/>
 					<div class="position-relative d-flex align-items-center justify-content-center h-100">
-					  <img class="w-100 position-relative z-index-2 pt-4" src="../../assets/img/illustrations/rocket-white.png" alt="rocket">
+						<img src="../../assets/img/illustrations/book.png" width="100"/>
 					</div>
 				  </div>
 				</div>
@@ -403,10 +401,10 @@
 			<div class="overflow-hidden position-relative border-radius-lg bg-cover h-100" style="background-image: url('../../assets/img/ivancik.jpg');">
 			  <span class="mask bg-gradient-dark"></span>
 			  <div class="card-body position-relative z-index-1 d-flex flex-column h-100 p-3">
-				<h5 class="text-white font-weight-bolder mb-4 pt-2">Work with the rockets</h5>
-				<p class="text-white">Wealth creation is an evolutionarily recent positive-sum game. It is all about who take the opportunity first.</p>
+				<h5 class="text-white font-weight-bolder mb-4 pt-2">Pending Fines</h5>
+				<p class="text-white">View Those Users Who Haven't Returned Books Within Due Date</p>
 				<a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
-				  Read More
+				  View Fine List
 				  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
 				</a>
 			  </div>
@@ -414,7 +412,7 @@
 		  </div>
 		</div>
 	  </div>
-	  <div class="row mt-4">
+	 <%-- <div class="row mt-4">
 		<div class="col-lg-5 mb-lg-0 mb-4">
 		  <div class="card z-index-2">
 			<div class="card-body p-3">
@@ -547,18 +545,14 @@
 			</div>
 		  </div>
 		</div>
-	  </div>
+	  </div>--%>
 	  <div class="row my-4">
 		<div class="col-lg-8 col-md-6 mb-md-0 mb-4">
 		  <div class="card">
 			<div class="card-header pb-0">
 			  <div class="row">
 				<div class="col-lg-6 col-7">
-				  <h6>Projects</h6>
-				  <p class="text-sm mb-0">
-					<i class="fa fa-check text-info" aria-hidden="true"></i>
-					<span class="font-weight-bold ms-1">30 done</span> this month
-				  </p>
+				  <h6>Discussion Rooms</h6>
 				</div>
 				<div class="col-lg-6 col-5 my-auto text-end">
 				  <div class="dropdown float-lg-end pe-4">
@@ -566,9 +560,8 @@
 					  <i class="fa fa-ellipsis-v text-secondary"></i>
 					</a>
 					<ul class="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5" aria-labelledby="dropdownTable">
-					  <li><a class="dropdown-item border-radius-md" href="javascript:;">Action</a></li>
-					  <li><a class="dropdown-item border-radius-md" href="javascript:;">Another action</a></li>
-					  <li><a class="dropdown-item border-radius-md" href="javascript:;">Something else here</a></li>
+					  <li><a class="dropdown-item border-radius-md" href="javascript:;">Expand</a></li>
+					  <li><a class="dropdown-item border-radius-md" href="javascript:;">Collapse</a></li>
 					</ul>
 				  </div>
 				</div>
@@ -579,10 +572,10 @@
 				<table class="table align-items-center mb-0">
 				  <thead>
 					<tr>
-					  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Companies</th>
-					  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Members</th>
-					  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Budget</th>
-					  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Completion</th>
+					  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Room Number</th>
+					  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Users</th>
+					  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Due Date</th>
+					  <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Duration</th>
 					</tr>
 				  </thead>
 				  <tbody>
@@ -590,32 +583,36 @@
 					  <td>
 						<div class="d-flex px-2 py-1">
 						  <div>
-							<img src="../../assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm me-3" alt="xd">
+							<img src="../../assets/img/meeting.png" class="avatar avatar-sm me-3" alt="xd"/>
 						  </div>
 						  <div class="d-flex flex-column justify-content-center">
-							<h6 class="mb-0 text-sm">Soft UI XD Version</h6>
+							<h6 class="mb-0 text-sm">Discussion Room 1</h6>
 						  </div>
 						</div>
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
-							<img src="../../assets/img/team-1.jpg" alt="team1">
+							<img src="../../assets/img/team-1.jpg" alt="team1"/>
 						  </a>
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abdullah Sohail">
-							<img src="../../assets/img/team-2.jpg" alt="team2">
+							<img src="../../assets/img/team-2.jpg" alt="team2"/>
 						  </a>
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ayila Jawad">
-							<img src="../../assets/img/team-3.jpg" alt="team3">
+							<img src="../../assets/img/team-3.jpg" alt="team3"/>
 						  </a>
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Muhammad Ahmed">
-							<img src="../../assets/img/team-4.jpg" alt="team4">
+							<img src="../../assets/img/team-4.jpg" alt="team4"/>
 						  </a>
 						</div>
 					  </td>
-					  <td class="align-middle text-center text-sm">
-						<span class="text-xs font-weight-bold"> $14,000 </span>
-					  </td>
+					  <td>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 45) % 30) + "/" + (((new Date().getMonth() + 1) + 10) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
+                      </td>
 					  <td class="align-middle">
 						<div class="progress-wrapper w-75 mx-auto">
 						  <div class="progress-info">
@@ -633,10 +630,10 @@
 					  <td>
 						<div class="d-flex px-2 py-1">
 						  <div>
-							<img src="../../assets/img/small-logos/logo-atlassian.svg" class="avatar avatar-sm me-3" alt="atlassian">
+							<img src="../../assets/img/meeting.png" class="avatar avatar-sm me-3" alt="atlassian">
 						  </div>
 						  <div class="d-flex flex-column justify-content-center">
-							<h6 class="mb-0 text-sm">Add Progress Track</h6>
+							<h6 class="mb-0 text-sm">Discussion Room 2</h6>
 						  </div>
 						</div>
 					  </td>
@@ -650,9 +647,13 @@
 						  </a>
 						</div>
 					  </td>
-					  <td class="align-middle text-center text-sm">
-						<span class="text-xs font-weight-bold"> $3,000 </span>
-					  </td>
+					  <td>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 45) % 30) + "/" + (((new Date().getMonth() + 1) + 10) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
+                      </td>
 					  <td class="align-middle">
 						<div class="progress-wrapper w-75 mx-auto">
 						  <div class="progress-info">
@@ -670,10 +671,10 @@
 					  <td>
 						<div class="d-flex px-2 py-1">
 						  <div>
-							<img src="../../assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm me-3" alt="team7">
+							<img src="../../assets/img/meeting.png" class="avatar avatar-sm me-3" alt="team7"/>
 						  </div>
 						  <div class="d-flex flex-column justify-content-center">
-							<h6 class="mb-0 text-sm">Fix Platform Errors</h6>
+							<h6 class="mb-0 text-sm">Discussion Room 3</h6>
 						  </div>
 						</div>
 					  </td>
@@ -687,9 +688,13 @@
 						  </a>
 						</div>
 					  </td>
-					  <td class="align-middle text-center text-sm">
-						<span class="text-xs font-weight-bold"> Not set </span>
-					  </td>
+					  <td>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 45) % 30) + "/" + (((new Date().getMonth() + 1) + 10) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
+                      </td>
 					  <td class="align-middle">
 						<div class="progress-wrapper w-75 mx-auto">
 						  <div class="progress-info">
@@ -707,32 +712,36 @@
 					  <td>
 						<div class="d-flex px-2 py-1">
 						  <div>
-							<img src="../../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm me-3" alt="spotify">
+							<img src="../../assets/img/meeting.png" class="avatar avatar-sm me-3" alt="spotify">
 						  </div>
 						  <div class="d-flex flex-column justify-content-center">
-							<h6 class="mb-0 text-sm">Launch our Mobile App</h6>
+							<h6 class="mb-0 text-sm">Discussion Room 4</h6>
 						  </div>
 						</div>
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
-							<img src="../../assets/img/team-4.jpg" alt="user1">
+							<img src="../../assets/img/team-4.jpg" alt="user1"/>
 						  </a>
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Muhammad Ahmed Khan">
-							<img src="../../assets/img/team-3.jpg" alt="user2">
+							<img src="../../assets/img/team-3.jpg" alt="user2"/>
 						  </a>
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abdullah Sohail">
-							<img src="../../assets/img/team-4.jpg" alt="user3">
+							<img src="../../assets/img/team-4.jpg" alt="user3"/>
 						  </a>
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ayila Jawad">
-							<img src="../../assets/img/team-1.jpg" alt="user4">
+							<img src="../../assets/img/team-1.jpg" alt="user4"/>
 						  </a>
 						</div>
 					  </td>
-					  <td class="align-middle text-center text-sm">
-						<span class="text-xs font-weight-bold"> $20,500 </span>
-					  </td>
+					  <td>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 45) % 30) + "/" + (((new Date().getMonth() + 1) + 10) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
+                      </td>
 					  <td class="align-middle">
 						<div class="progress-wrapper w-75 mx-auto">
 						  <div class="progress-info">
@@ -750,10 +759,10 @@
 					  <td>
 						<div class="d-flex px-2 py-1">
 						  <div>
-							<img src="../../assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm me-3" alt="jira">
+							<img src="../../assets/img/meeting.png" class="avatar avatar-sm me-3" alt="jira"/>
 						  </div>
 						  <div class="d-flex flex-column justify-content-center">
-							<h6 class="mb-0 text-sm">Add the New Pricing Page</h6>
+							<h6 class="mb-0 text-sm">Discussion Room 5</h6>
 						  </div>
 						</div>
 					  </td>
@@ -764,9 +773,13 @@
 						  </a>
 						</div>
 					  </td>
-					  <td class="align-middle text-center text-sm">
-						<span class="text-xs font-weight-bold"> $500 </span>
-					  </td>
+					  <td>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 45) % 30) + "/" + (((new Date().getMonth() + 1) + 10) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
+                      </td>
 					  <td class="align-middle">
 						<div class="progress-wrapper w-75 mx-auto">
 						  <div class="progress-info">
@@ -784,26 +797,30 @@
 					  <td>
 						<div class="d-flex px-2 py-1">
 						  <div>
-							<img src="../../assets/img/small-logos/logo-invision.svg" class="avatar avatar-sm me-3" alt="invision">
+							<img src="../../assets/img/meeting.png" class="avatar avatar-sm me-3" alt="invision">
 						  </div>
 						  <div class="d-flex flex-column justify-content-center">
-							<h6 class="mb-0 text-sm">Redesign New Online Shop</h6>
+							<h6 class="mb-0 text-sm">Discussion Room 6</h6>
 						  </div>
 						</div>
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
-							<img src="../../assets/img/team-1.jpg" alt="user6">
+							<img src="../../assets/img/team-1.jpg" alt="user6"/>
 						  </a>
 						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ayila Jawad">
-							<img src="../../assets/img/team-4.jpg" alt="user7">
+							<img src="../../assets/img/team-4.jpg" alt="user7"/>
 						  </a>
 						</div>
 					  </td>
-					  <td class="align-middle text-center text-sm">
-						<span class="text-xs font-weight-bold"> $2,000 </span>
-					  </td>
+					  <td>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 45) % 30) + "/" + (((new Date().getMonth() + 1) + 10) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
+                      </td>
 					  <td class="align-middle">
 						<div class="progress-wrapper w-75 mx-auto">
 						  <div class="progress-info">
@@ -826,65 +843,68 @@
 		<div class="col-lg-4 col-md-6">
 		  <div class="card h-100">
 			<div class="card-header pb-0">
-			  <h6>Orders overview</h6>
-			  <p class="text-sm">
-				<i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
-				<span class="font-weight-bold">24%</span> this month
-			  </p>
+			  <h6>History</h6>
 			</div>
 			<div class="card-body p-3">
 			  <div class="timeline timeline-one-side">
 				<div class="timeline-block mb-3">
 				  <span class="timeline-step">
-					<i class="ni ni-bell-55 text-success text-gradient"></i>
+					<%--<i class="ni ni-bell-55 text-success text-gradient"></i>--%>
+					  <img src="../../assets/img/select.png"/>
 				  </span>
 				  <div class="timeline-content">
-					<h6 class="text-dark text-sm font-weight-bold mb-0">$2400, Design changes</h6>
+					<h6 class="text-dark text-sm font-weight-bold mb-0">Abdur Rehman, Issued a Book</h6>
 					<p class="text-secondary font-weight-bold text-xs mt-1 mb-0">22 DEC 7:20 PM</p>
 				  </div>
 				</div>
 				<div class="timeline-block mb-3">
 				  <span class="timeline-step">
-					<i class="ni ni-html5 text-danger text-gradient"></i>
+					<%--<i class="ni ni-html5 text-danger text-gradient"></i>--%>
+					  <img src="../../assets/img/select.png"/>
+
 				  </span>
 				  <div class="timeline-content">
-					<h6 class="text-dark text-sm font-weight-bold mb-0">New order #1832412</h6>
+					<h6 class="text-dark text-sm font-weight-bold mb-0">Abdur Rehman, Paid Fine of Rs. 500</h6>
 					<p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 11 PM</p>
 				  </div>
 				</div>
 				<div class="timeline-block mb-3">
 				  <span class="timeline-step">
-					<i class="ni ni-cart text-info text-gradient"></i>
+					<%--<i class="ni ni-cart text-info text-gradient"></i>--%>
+					  <img src="../../assets/img/select.png"/>
 				  </span>
 				  <div class="timeline-content">
-					<h6 class="text-dark text-sm font-weight-bold mb-0">Server payments for April</h6>
+					<h6 class="text-dark text-sm font-weight-bold mb-0">Ali Haider, Booked Discussion Room 3</h6>
 					<p class="text-secondary font-weight-bold text-xs mt-1 mb-0">21 DEC 9:34 PM</p>
 				  </div>
 				</div>
 				<div class="timeline-block mb-3">
 				  <span class="timeline-step">
-					<i class="ni ni-credit-card text-warning text-gradient"></i>
+					<%--<i class="ni ni-credit-card text-warning text-gradient"></i>--%>
+					  <img src="../../assets/img/select.png"/>
 				  </span>
 				  <div class="timeline-content">
-					<h6 class="text-dark text-sm font-weight-bold mb-0">New card added for order #4395133</h6>
+					<h6 class="text-dark text-sm font-weight-bold mb-0">Abdullah Sohail, Issued a Book</h6>
 					<p class="text-secondary font-weight-bold text-xs mt-1 mb-0">20 DEC 2:20 AM</p>
 				  </div>
 				</div>
 				<div class="timeline-block mb-3">
 				  <span class="timeline-step">
-					<i class="ni ni-key-25 text-primary text-gradient"></i>
+					<%--<i class="ni ni-key-25 text-primary text-gradient"></i>--%>
+					  <img src="../../assets/img/select.png"/>
 				  </span>
 				  <div class="timeline-content">
-					<h6 class="text-dark text-sm font-weight-bold mb-0">Unlock packages for development</h6>
+					<h6 class="text-dark text-sm font-weight-bold mb-0">Haroon Tahir, Booked Discussion Room 2</h6>
 					<p class="text-secondary font-weight-bold text-xs mt-1 mb-0">18 DEC 4:54 AM</p>
 				  </div>
 				</div>
 				<div class="timeline-block">
 				  <span class="timeline-step">
-					<i class="ni ni-money-coins text-dark text-gradient"></i>
+					<%--<i class="ni ni-money-coins text-dark text-gradient"></i>--%>
+					  <img src="../../assets/img/select.png"/>
 				  </span>
 				  <div class="timeline-content">
-					<h6 class="text-dark text-sm font-weight-bold mb-0">New order #9583120</h6>
+					<h6 class="text-dark text-sm font-weight-bold mb-0">Muhammad Ahmed, Paid Fine of Rs. 750</h6>
 					<p class="text-secondary font-weight-bold text-xs mt-1 mb-0">17 DEC</p>
 				  </div>
 				</div>

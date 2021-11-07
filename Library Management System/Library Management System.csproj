@@ -144,6 +144,7 @@
     <Content Include="assets\img\marie.jpg" />
     <Content Include="assets\img\meeting-room.png" />
     <Content Include="assets\img\meeting.png" />
+    <Content Include="assets\img\select.png" />
     <Content Include="assets\img\shapes\waves-white.svg" />
     <Content Include="assets\img\small-logos\icon-sun-cloud.png" />
     <Content Include="assets\img\small-logos\logo-atlassian.svg" />
