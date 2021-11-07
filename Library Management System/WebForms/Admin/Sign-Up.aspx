@@ -123,7 +123,7 @@
           <p class="mb-0 text-secondary">
             Copyright © <script>
               document.write(new Date().getFullYear())
-            </script> Soft by Creative Tim.
+            </script> Soft by Chintu Coders.
           </p>
         </div>
       </div>

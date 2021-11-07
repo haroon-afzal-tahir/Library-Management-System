@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Tables.aspx.cs" Inherits="Library_Management_System.WebForms.Admin.Tables" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Management.aspx.cs" Inherits="Library_Management_System.WebForms.Admin.Tables" %>
 
 <!DOCTYPE html>
 
@@ -28,9 +28,9 @@
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-      <a class="navbar-brand m-0" href="https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html" target="_blank">
+      <a class="navbar-brand m-0" href="Dashboard.aspx">
         <img src="../../assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
-        <span class="ms-1 font-weight-bold">Soft UI Dashboard</span>
+        <span class="ms-1 font-weight-bold">Gul Muhammad Library</span>
       </a>
     </div>
     <hr class="horizontal dark mt-0">
@@ -57,7 +57,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active" href="Tables.aspx">
+          <a class="nav-link  active" href="Management.aspx">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>office</title>
@@ -73,7 +73,7 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Tables</span>
+            <span class="nav-link-text ms-1">Management</span>
           </a>
         </li>
         <li class="nav-item">
@@ -172,9 +172,9 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Tables</li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Management</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">Tables</h6>
+          <h6 class="font-weight-bolder mb-0">Management</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -287,14 +287,14 @@
         <div class="col-12">
           <div class="card mb-4">
             <div class="card-header pb-0">
-              <h6>Authors table</h6>
+              <h6>Employees</h6>
             </div>
             <div class="card-body px-0 pt-0 pb-2">
               <div class="table-responsive p-0">
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Author</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Function</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
                       <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Employed</th>
@@ -306,17 +306,17 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1">
+                            <img src="../../assets/img/user.png" class="avatar avatar-sm me-3" alt="user1">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">John Michael</h6>
-                            <p class="text-xs text-secondary mb-0">john@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">Haroon Tahir</h6>
+                            <p class="text-xs text-secondary mb-0">l192392@lhr.nu.edu.pk</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Manager</p>
-                        <p class="text-xs text-secondary mb-0">Organization</p>
+                        <p class="text-xs font-weight-bold mb-0">Admin</p>
+                        <p class="text-xs text-secondary mb-0">Library</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
@@ -334,17 +334,17 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../../assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user2">
+                            <img src="../../assets/img/user.png" class="avatar avatar-sm me-3" alt="user2">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Alexa Liras</h6>
-                            <p class="text-xs text-secondary mb-0">alexa@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">Abdullah Sohail</h6>
+                            <p class="text-xs text-secondary mb-0">l191052@lhr.nu.edu.pk</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
-                        <p class="text-xs text-secondary mb-0">Developer</p>
+                        <p class="text-xs font-weight-bold mb-0">Admin</p>
+                        <p class="text-xs text-secondary mb-0">Library</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-secondary">Offline</span>
@@ -362,17 +362,17 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../../assets/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user3">
+                            <img src="../../assets/img/user.png" class="avatar avatar-sm me-3" alt="user3">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Laurent Perrier</h6>
-                            <p class="text-xs text-secondary mb-0">laurent@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">Muhammad Ahmed</h6>
+                            <p class="text-xs text-secondary mb-0">l191014@lhr.nu.edu.pk</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Executive</p>
-                        <p class="text-xs text-secondary mb-0">Projects</p>
+                        <p class="text-xs font-weight-bold mb-0">Admin</p>
+                        <p class="text-xs text-secondary mb-0">Library</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
@@ -390,17 +390,17 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../../assets/img/team-3.jpg" class="avatar avatar-sm me-3" alt="user4">
+                            <img src="../../assets/img/user.png" class="avatar avatar-sm me-3" alt="user4">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Michael Levi</h6>
-                            <p class="text-xs text-secondary mb-0">michael@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">Ayila Jawad</h6>
+                            <p class="text-xs text-secondary mb-0">l190959@lhr.nu.edu.pk</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Programator</p>
-                        <p class="text-xs text-secondary mb-0">Developer</p>
+                        <p class="text-xs font-weight-bold mb-0">Admin</p>
+                        <p class="text-xs text-secondary mb-0">Library</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-success">Online</span>
@@ -418,17 +418,17 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../../assets/img/team-2.jpg" class="avatar avatar-sm me-3" alt="user5">
+                            <img src="../../assets/img/user.png" class="avatar avatar-sm me-3" alt="user5">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Richard Gran</h6>
-                            <p class="text-xs text-secondary mb-0">richard@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">Ali Haider</h6>
+                            <p class="text-xs text-secondary mb-0">l192327@lhr.nu.edu.pk</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Manager</p>
-                        <p class="text-xs text-secondary mb-0">Executive</p>
+                        <p class="text-xs font-weight-bold mb-0">Admin</p>
+                        <p class="text-xs text-secondary mb-0">Library</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-secondary">Offline</span>
@@ -446,17 +446,17 @@
                       <td>
                         <div class="d-flex px-2 py-1">
                           <div>
-                            <img src="../../assets/img/team-4.jpg" class="avatar avatar-sm me-3" alt="user6">
+                            <img src="../../assets/img/user.png" class="avatar avatar-sm me-3" alt="user6">
                           </div>
                           <div class="d-flex flex-column justify-content-center">
-                            <h6 class="mb-0 text-sm">Miriam Eric</h6>
-                            <p class="text-xs text-secondary mb-0">miriam@creative-tim.com</p>
+                            <h6 class="mb-0 text-sm">Abdur Rehman</h6>
+                            <p class="text-xs text-secondary mb-0">l191061@lhr.nu.edu.pk</p>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-xs font-weight-bold mb-0">Programtor</p>
-                        <p class="text-xs text-secondary mb-0">Developer</p>
+                        <p class="text-xs font-weight-bold mb-0">Admin</p>
+                        <p class="text-xs text-secondary mb-0">Library</p>
                       </td>
                       <td class="align-middle text-center text-sm">
                         <span class="badge badge-sm bg-gradient-secondary">Offline</span>
@@ -481,17 +481,17 @@
         <div class="col-12">
           <div class="card mb-4">
             <div class="card-header pb-0">
-              <h6>Projects table</h6>
+              <h6>Discussion Rooms</h6>
             </div>
             <div class="card-body px-0 pt-0 pb-2">
               <div class="table-responsive p-0">
                 <table class="table align-items-center justify-content-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Project</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Budget</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Completion</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Room Number</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Booked By</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Date</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder text-center opacity-7 ps-2">Duration</th>
                       <th></th>
                     </tr>
                   </thead>
@@ -500,18 +500,22 @@
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm rounded-circle me-2" alt="spotify">
+                            <img src="../../assets/img/meeting.png" class="avatar avatar-sm rounded-circle me-2">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Spotify</h6>
+                            <h6 class="mb-0 text-sm">Discussion Room 1</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$2,500</p>
+                        <p class="text-sm font-weight-bold mb-0">Mian Basam</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">working</span>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 45) % 30) + "/" + (((new Date().getMonth() + 1) + 10) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
                       </td>
                       <td class="align-middle text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -533,18 +537,22 @@
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../../assets/img/small-logos/logo-invision.svg" class="avatar avatar-sm rounded-circle me-2" alt="invision">
+                            <img src="../../assets/img/meeting.png" class="avatar avatar-sm rounded-circle me-2">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Invision</h6>
+                            <h6 class="mb-0 text-sm">Discussion Room 2</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$5,000</p>
+                        <p class="text-sm font-weight-bold mb-0">Ishaq Raza</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">done</span>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 34) % 30) + "/" + (((new Date().getMonth() + 1) + 8) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
                       </td>
                       <td class="align-middle text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -566,18 +574,22 @@
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../../assets/img/small-logos/logo-jira.svg" class="avatar avatar-sm rounded-circle me-2" alt="jira">
+                            <img src="../../assets/img/meeting.png" class="avatar avatar-sm rounded-circle me-2">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Jira</h6>
+                            <h6 class="mb-0 text-sm">Discussion Room 3</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$3,400</p>
+                        <p class="text-sm font-weight-bold mb-0">Haroon Tahir</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">canceled</span>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 1) % 30) + "/" + (((new Date().getMonth() + 1) + 100) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
                       </td>
                       <td class="align-middle text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -599,18 +611,22 @@
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../../assets/img/small-logos/logo-slack.svg" class="avatar avatar-sm rounded-circle me-2" alt="slack">
+                            <img src="../../assets/img/meeting.png" class="avatar avatar-sm rounded-circle me-2">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Slack</h6>
+                            <h6 class="mb-0 text-sm">Discussion Room 4</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$1,000</p>
+                        <p class="text-sm font-weight-bold mb-0">Abdullah Sohail</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">canceled</span>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 1000) % 30) + "/" + (((new Date().getMonth() + 1) + 5000) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
                       </td>
                       <td class="align-middle text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -632,18 +648,22 @@
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../../assets/img/small-logos/logo-webdev.svg" class="avatar avatar-sm rounded-circle me-2" alt="webdev">
+                            <img src="../../assets/img/meeting.png" class="avatar avatar-sm rounded-circle me-2">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Webdev</h6>
+                            <h6 class="mb-0 text-sm">Discussion Room 5</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$14,000</p>
+                        <p class="text-sm font-weight-bold mb-0">Muhammad Ahmed</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">working</span>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 1030) % 30) + "/" + (((new Date().getMonth() + 1) + 2780) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
                       </td>
                       <td class="align-middle text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -665,18 +685,22 @@
                       <td>
                         <div class="d-flex px-2">
                           <div>
-                            <img src="../../assets/img/small-logos/logo-xd.svg" class="avatar avatar-sm rounded-circle me-2" alt="xd">
+                            <img src="../../assets/img/meeting.png" class="avatar avatar-sm rounded-circle me-2">
                           </div>
                           <div class="my-auto">
-                            <h6 class="mb-0 text-sm">Adobe XD</h6>
+                            <h6 class="mb-0 text-sm">Discussion Room 6</h6>
                           </div>
                         </div>
                       </td>
                       <td>
-                        <p class="text-sm font-weight-bold mb-0">$2,300</p>
+                        <p class="text-sm font-weight-bold mb-0">Ayila Jawad</p>
                       </td>
                       <td>
-                        <span class="text-xs font-weight-bold">done</span>
+                        <span class="text-xs font-weight-bold">
+                            <script>
+								document.write(((new Date().getDate() + 51981) % 30) + "/" + (((new Date().getMonth() + 1) + 51986) % 12) + "/" + new Date().getFullYear())
+							</script>
+                        </span>
                       </td>
                       <td class="align-middle text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -710,23 +734,23 @@
                   document.write(new Date().getFullYear())
                 </script>,
                 made with <i class="fa fa-heart"></i> by
-                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
+                <a class="font-weight-bold">Chintu Coders</a>
                 for a better web.
               </div>
             </div>
             <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
+                  <a class="nav-link text-muted">Chintu Coders</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+                  <a class="nav-link text-muted">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                  <a class="nav-link text-muted">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                  <a class="nav-link pe-0 text-muted">License</a>
                 </li>
               </ul>
             </div>

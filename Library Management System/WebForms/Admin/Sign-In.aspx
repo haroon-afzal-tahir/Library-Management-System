@@ -32,7 +32,7 @@
 		<nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
 		  <div class="container-fluid">
 			<a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="Dashboard.aspx">
-			  Soft UI Dashboard
+			  Gul Muhammad Library
 			</a>
 			<button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon mt-2">
@@ -66,11 +66,6 @@
 					<i class="fas fa-key opacity-6 text-dark me-1"></i>
 					Sign In
 				  </a>
-				</li>
-			  </ul>
-			  <ul class="navbar-nav d-lg-block d-none">
-				<li class="nav-item">
-				  <a href="https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-sm btn-round mb-0 me-1 bg-gradient-dark">Free download</a>
 				</li>
 			  </ul>
 			</div>
@@ -175,7 +170,7 @@
 		  <p class="mb-0 text-secondary">
 			Copyright © <script>
 			  document.write(new Date().getFullYear())
-			</script> Soft by Creative Tim.
+			</script> Soft by Chintu Coders
 		  </p>
 		</div>
 	  </div>

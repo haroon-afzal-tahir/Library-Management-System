@@ -117,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="apple-icon.png" />
     <Content Include="assets\css\nucleo-icons.css" />
     <Content Include="assets\css\nucleo-svg.css" />
     <Content Include="assets\css\soft-ui-dashboard.css" />
@@ -144,6 +145,8 @@
     <Content Include="assets\img\logos\mastercard.png" />
     <Content Include="assets\img\logos\visa.png" />
     <Content Include="assets\img\marie.jpg" />
+    <Content Include="assets\img\meeting-room.png" />
+    <Content Include="assets\img\meeting.png" />
     <Content Include="assets\img\shapes\waves-white.svg" />
     <Content Include="assets\img\small-logos\icon-sun-cloud.png" />
     <Content Include="assets\img\small-logos\logo-atlassian.svg" />
@@ -157,6 +160,7 @@
     <Content Include="assets\img\team-2.jpg" />
     <Content Include="assets\img\team-3.jpg" />
     <Content Include="assets\img\team-4.jpg" />
+    <Content Include="assets\img\user.png" />
     <Content Include="assets\img\vr-bg.jpg" />
     <Content Include="assets\js\core\bootstrap.min.js" />
     <Content Include="assets\js\core\popper.min.js" />
@@ -169,6 +173,7 @@
     <Content Include="assets\js\plugins\smooth-scrollbar.min.js" />
     <Content Include="assets\js\soft-ui-dashboard.js" />
     <Content Include="assets\js\soft-ui-dashboard.min.js" />
+    <Content Include="bruce-mars.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -192,10 +197,23 @@
     <Content Include="Database\Student.sql" />
     <Content Include="Database\Teacher.sql" />
     <Content Include="Default.aspx" />
+    <Content Include="down-arrow-dark.svg" />
+    <Content Include="down-arrow.svg" />
     <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
+    <Content Include="home-decor-1.jpg" />
+    <Content Include="home-decor-2.jpg" />
+    <Content Include="home-decor-3.jpg" />
     <Content Include="Images\User.png" />
+    <Content Include="ivana-square.jpg" />
+    <Content Include="ivancik.jpg" />
+    <Content Include="kal-visuals-square.jpg" />
+    <Content Include="logo-ct.png" />
+    <Content Include="marie.jpg" />
+    <Content Include="meeting-room.png" />
+    <Content Include="meeting.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -219,12 +237,18 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="team-1.jpg" />
+    <Content Include="team-2.jpg" />
+    <Content Include="team-3.jpg" />
+    <Content Include="team-4.jpg" />
+    <Content Include="user.png" />
+    <Content Include="vr-bg.jpg" />
     <Content Include="WebForms\Admin\Billing.aspx" />
     <Content Include="WebForms\Admin\Dashboard.aspx" />
     <Content Include="WebForms\Admin\Profile.aspx" />
     <Content Include="WebForms\Admin\Sign-In.aspx" />
     <Content Include="WebForms\Admin\Sign-Up.aspx" />
-    <Content Include="WebForms\Admin\Tables.aspx" />
+    <Content Include="WebForms\Admin\Management.aspx" />
     <Content Include="WebForms\Login.aspx" />
     <Content Include="WebForms\Signup.aspx" />
     <Content Include="WebForms\Test WebForms\Alerts.aspx" />
@@ -639,12 +663,12 @@
     <Compile Include="WebForms\Admin\Sign-Up.aspx.designer.cs">
       <DependentUpon>Sign-Up.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForms\Admin\Tables.aspx.cs">
-      <DependentUpon>Tables.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\Management.aspx.cs">
+      <DependentUpon>Management.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForms\Admin\Tables.aspx.designer.cs">
-      <DependentUpon>Tables.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\Management.aspx.designer.cs">
+      <DependentUpon>Management.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

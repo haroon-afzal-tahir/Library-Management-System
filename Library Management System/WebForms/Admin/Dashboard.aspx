@@ -28,7 +28,7 @@
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
 	<div class="sidenav-header">
 	  <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-	  <a class="navbar-brand m-0" href="https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html" target="_blank">
+	  <a class="navbar-brand m-0" href="Dashboard.aspx">
 		<img src="../../assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
 		<span class="ms-1 font-weight-bold">Gul Muhammad Library</span>
 	  </a>
@@ -57,7 +57,7 @@
 		  </a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link  " href="Tables.aspx">
+		  <a class="nav-link  " href="Management.aspx">
 			<div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
 			  <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<title>office</title>
@@ -73,7 +73,7 @@
 				</g>
 			  </svg>
 			</div>
-			<span class="nav-link-text ms-1">Tables</span>
+			<span class="nav-link-text ms-1">Management</span>
 		  </a>
 		</li>
 		<li class="nav-item">
@@ -290,16 +290,15 @@
 			  <div class="row">
 				<div class="col-8">
 				  <div class="numbers">
-					<p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Money</p>
+					<p class="text-sm mb-0 text-capitalize font-weight-bold">Books Issued Today</p>
 					<h5 class="font-weight-bolder mb-0">
-					  $53,000
-					  <span class="text-success text-sm font-weight-bolder">+55%</span>
+					  13
 					</h5>
 				  </div>
 				</div>
 				<div class="col-4 text-end">
 				  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-					<i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+					  <i class="fas fa-book opacity-10" aria-hidden="true"></i>
 				  </div>
 				</div>
 			  </div>
@@ -312,16 +311,16 @@
 			  <div class="row">
 				<div class="col-8">
 				  <div class="numbers">
-					<p class="text-sm mb-0 text-capitalize font-weight-bold">Today's Users</p>
+					<p class="text-sm mb-0 text-capitalize font-weight-bold">Discussion Rooms Booked</p>
 					<h5 class="font-weight-bolder mb-0">
-					  2,300
-					  <span class="text-success text-sm font-weight-bolder">+3%</span>
+					  6
 					</h5>
 				  </div>
 				</div>
 				<div class="col-4 text-end">
 				  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-					<i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+					  <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+					  <%--<img src="../../assets/img/meeting-room.png" aria-hidden="true" width="30" height="30" />--%>
 				  </div>
 				</div>
 			  </div>
@@ -602,16 +601,16 @@
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
 							<img src="../../assets/img/team-1.jpg" alt="team1">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abdullah Sohail">
 							<img src="../../assets/img/team-2.jpg" alt="team2">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Alexander Smith">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ayila Jawad">
 							<img src="../../assets/img/team-3.jpg" alt="team3">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Muhammad Ahmed">
 							<img src="../../assets/img/team-4.jpg" alt="team4">
 						  </a>
 						</div>
@@ -645,10 +644,10 @@
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ayila Jawad">
 							<img src="../../assets/img/team-2.jpg" alt="team5">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Muhammad Ahmed">
 							<img src="../../assets/img/team-4.jpg" alt="team6">
 						  </a>
 						</div>
@@ -682,10 +681,10 @@
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abdullah Sohail">
 							<img src="../../assets/img/team-3.jpg" alt="team8">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
 							<img src="../../assets/img/team-1.jpg" alt="team9">
 						  </a>
 						</div>
@@ -719,16 +718,16 @@
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
 							<img src="../../assets/img/team-4.jpg" alt="user1">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Romina Hadid">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Muhammad Ahmed Khan">
 							<img src="../../assets/img/team-3.jpg" alt="user2">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Alexander Smith">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abdullah Sohail">
 							<img src="../../assets/img/team-4.jpg" alt="user3">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ayila Jawad">
 							<img src="../../assets/img/team-1.jpg" alt="user4">
 						  </a>
 						</div>
@@ -762,7 +761,7 @@
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
 							<img src="../../assets/img/team-4.jpg" alt="user5">
 						  </a>
 						</div>
@@ -796,10 +795,10 @@
 					  </td>
 					  <td>
 						<div class="avatar-group mt-2">
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Tompson">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Haroon Tahir">
 							<img src="../../assets/img/team-1.jpg" alt="user6">
 						  </a>
-						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Jessica Doe">
+						  <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ayila Jawad">
 							<img src="../../assets/img/team-4.jpg" alt="user7">
 						  </a>
 						</div>
@@ -905,23 +904,23 @@
 				  document.write(new Date().getFullYear())
 				</script>,
 				made with <i class="fa fa-heart"></i> by
-				<a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
+				<a class="font-weight-bold">Chintu Coders</a>
 				for a better web.
 			  </div>
 			</div>
 			<div class="col-lg-6">
 			  <ul class="nav nav-footer justify-content-center justify-content-lg-end">
 				<li class="nav-item">
-				  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
+				  <a class="nav-link text-muted">Chintu Coders</a>
 				</li>
 				<li class="nav-item">
-				  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+				  <a class="nav-link text-muted">About Us</a>
 				</li>
 				<li class="nav-item">
-				  <a href="https://creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+				  <a class="nav-link text-muted">Blog</a>
 				</li>
 				<li class="nav-item">
-				  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+				  <a class="nav-link pe-0 text-muted">License</a>
 				</li>
 			  </ul>
 			</div>
