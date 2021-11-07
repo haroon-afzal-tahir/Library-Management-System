@@ -317,14 +317,14 @@
                   <div class="card">
                     <div class="card-header mx-4 p-3 text-center">
                       <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                        <i class="fas fa-landmark opacity-10"></i>
+                        <i class="fas fa-book opacity-10"></i>
                       </div>
                     </div>
                     <div class="card-body pt-0 p-3 text-center">
-                      <h6 class="text-center mb-0">Salary</h6>
-                      <span class="text-xs">Belong Interactive</span>
+                      <h6 class="text-center mb-0">Ordinary Books</h6>
+                      <span class="text-xs">Total</span>
                       <hr class="horizontal dark my-3">
-                      <h5 class="mb-0">+$2000</h5>
+                      <h5 class="mb-0">5123</h5>
                     </div>
                   </div>
                 </div>
@@ -332,14 +332,14 @@
                   <div class="card">
                     <div class="card-header mx-4 p-3 text-center">
                       <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                        <i class="fab fa-paypal opacity-10"></i>
+                        <i class="fas fa-book opacity-10"></i>
                       </div>
                     </div>
                     <div class="card-body pt-0 p-3 text-center">
-                      <h6 class="text-center mb-0">Paypal</h6>
-                      <span class="text-xs">Freelance Payment</span>
+                      <h6 class="text-center mb-0">Premium Books</h6>
+                      <span class="text-xs">Total</span>
                       <hr class="horizontal dark my-3">
-                      <h5 class="mb-0">$455.00</h5>
+                      <h5 class="mb-0">500</h5>
                     </div>
                   </div>
                 </div>
@@ -452,16 +452,18 @@
         <div class="col-md-7 mt-4">
           <div class="card">
             <div class="card-header pb-0 px-3">
-              <h6 class="mb-0">Billing Information</h6>
+              <h6 class="mb-0">Book Inventory</h6>
             </div>
             <div class="card-body pt-4 p-3">
               <ul class="list-group">
                 <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
                   <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Oliver Liam</h6>
-                    <span class="mb-2 text-xs">Company Name: <span class="text-dark font-weight-bold ms-sm-2">Viking Burrito</span></span>
-                    <span class="mb-2 text-xs">Email Address: <span class="text-dark ms-sm-2 font-weight-bold">oliver@burrito.com</span></span>
-                    <span class="text-xs">VAT Number: <span class="text-dark ms-sm-2 font-weight-bold">FRB1235476</span></span>
+                    <h6 class="mb-3 text-sm">The Alchemist</h6>
+                    <span class="mb-2 text-xs">Author Name:<span class="text-dark font-weight-bold ms-sm-2">Paulo Cohelo</span></span>
+                    <span class="mb-2 text-xs">ISSN:<span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
+                     <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Ordinary</span></span>
+                    <span class="text-xs">Category:<span class="text-dark ms-sm-2 font-weight-bold">Novel</span></span>
+                     
                   </div>
                   <div class="ms-auto text-end">
                     <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i class="far fa-trash-alt me-2"></i>Delete</a>
@@ -470,10 +472,11 @@
                 </li>
                 <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
                   <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Lucas Harper</h6>
-                    <span class="mb-2 text-xs">Company Name: <span class="text-dark font-weight-bold ms-sm-2">Stone Tech Zone</span></span>
-                    <span class="mb-2 text-xs">Email Address: <span class="text-dark ms-sm-2 font-weight-bold">lucas@stone-tech.com</span></span>
-                    <span class="text-xs">VAT Number: <span class="text-dark ms-sm-2 font-weight-bold">FRB1235476</span></span>
+                    <h6 class="mb-3 text-sm">Fundamentals of DataBase Systems (7th Edition)</h6>
+                    <span class="mb-2 text-xs">Author Name:<span class="text-dark font-weight-bold ms-sm-2">Elmasri</span></span>
+                    <span class="mb-2 text-xs">ISSN: <span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
+                      <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Ordinary</span></span>
+                    <span class="text-xs">Category: <span class="text-dark ms-sm-2 font-weight-bold">Informative</span></span>
                   </div>
                   <div class="ms-auto text-end">
                     <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i class="far fa-trash-alt me-2"></i>Delete</a>
@@ -482,10 +485,11 @@
                 </li>
                 <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
                   <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Ethan James</h6>
-                    <span class="mb-2 text-xs">Company Name: <span class="text-dark font-weight-bold ms-sm-2">Fiber Notion</span></span>
-                    <span class="mb-2 text-xs">Email Address: <span class="text-dark ms-sm-2 font-weight-bold">ethan@fiber.com</span></span>
-                    <span class="text-xs">VAT Number: <span class="text-dark ms-sm-2 font-weight-bold">FRB1235476</span></span>
+                    <h6 class="mb-3 text-sm">Muqaddimah</h6>
+                    <span class="mb-2 text-xs">Author Name: <span class="text-dark font-weight-bold ms-sm-2">Ibn Khaldun</span></span>
+                    <span class="mb-2 text-xs">ISSN: <span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
+                      <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Premium</span></span>
+                    <span class="text-xs">Category: <span class="text-dark ms-sm-2 font-weight-bold">History</span></span>
                   </div>
                   <div class="ms-auto text-end">
                     <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;"><i class="far fa-trash-alt me-2"></i>Delete</a>
