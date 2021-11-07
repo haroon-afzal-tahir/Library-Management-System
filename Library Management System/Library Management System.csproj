@@ -220,7 +220,7 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="WebForms\Admin\Billing.aspx" />
+    <Content Include="WebForms\Admin\BookInventory.aspx" />
     <Content Include="WebForms\Admin\Dashboard.aspx" />
     <Content Include="WebForms\Admin\Profile.aspx" />
     <Content Include="WebForms\Admin\Sign-In.aspx" />
@@ -598,12 +598,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForms\Admin\Billing.aspx.cs">
-      <DependentUpon>Billing.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\BookInventory.aspx.cs">
+      <DependentUpon>BookInventory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForms\Admin\Billing.aspx.designer.cs">
-      <DependentUpon>Billing.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\BookInventory.aspx.designer.cs">
+      <DependentUpon>BookInventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Admin\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
