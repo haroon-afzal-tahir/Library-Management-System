@@ -31,10 +31,11 @@
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
 		  <div class="container-fluid">
-<img src="../../assets/img/reading.png" class="navbar-brand-img h-100" alt="main_logo">
+<%--<img src="../../assets/img/reading.png" class="navbar-brand-img h-100" alt="main_logo">--%>
 
-			<a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="Dashboard.aspx">
-			  Gul Muhammad Library
+			<a class="navbar-brand m-0" href="Dashboard.aspx">
+				<img src="../../assets/img/reading.png" alt="main_logo" height="30"/>
+				<span class="ms-1 font-weight-bold">Gul Muhammad Library</span>
 			</a>
 			<button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon mt-2">
