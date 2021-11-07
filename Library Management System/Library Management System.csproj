@@ -124,6 +124,8 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Database\Admin.sql" />
     <Content Include="Database\Book Issue.sql" />
@@ -139,7 +141,9 @@
     <Content Include="Database\Teacher.sql" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\User.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -163,11 +167,15 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="WebForms\Admin\Book Inventory.aspx" />
-    <Content Include="WebForms\Admin\Booking Requester.aspx" />
+    <Content Include="Styles\Dashboard.css" />
+    <Content Include="WebForms\Admin\Billing.aspx" />
     <Content Include="WebForms\Admin\Dashboard.aspx" />
-    <Content Include="WebForms\Admin\Issue Requester.aspx" />
-    <Content Include="WebForms\Admin\Ordering Request.aspx" />
+    <Content Include="WebForms\Admin\Profile.aspx" />
+    <Content Include="WebForms\Admin\rtl.aspx" />
+    <Content Include="WebForms\Admin\Sign-In.aspx" />
+    <Content Include="WebForms\Admin\Sign-Up.aspx" />
+    <Content Include="WebForms\Admin\Tables.aspx" />
+    <Content Include="WebForms\Admin\Virtual Reality.aspx" />
     <Content Include="WebForms\Login.aspx" />
     <Content Include="WebForms\Signup.aspx" />
     <Content Include="WebForms\Test WebForms\Alerts.aspx" />
@@ -181,6 +189,11 @@
     <Content Include="WebForms\Users\History.aspx" />
     <Content Include="WebForms\Users\Membership.aspx" />
     <Content Include="WebForms\Users\Order Book.aspx" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -334,19 +347,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForms\Admin\Book Inventory.aspx.cs">
-      <DependentUpon>Book Inventory.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\Billing.aspx.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForms\Admin\Book Inventory.aspx.designer.cs">
-      <DependentUpon>Book Inventory.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForms\Admin\Booking Requester.aspx.cs">
-      <DependentUpon>Booking Requester.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForms\Admin\Booking Requester.aspx.designer.cs">
-      <DependentUpon>Booking Requester.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\Billing.aspx.designer.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Admin\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
@@ -355,19 +361,47 @@
     <Compile Include="WebForms\Admin\Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForms\Admin\Issue Requester.aspx.cs">
-      <DependentUpon>Issue Requester.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForms\Admin\Issue Requester.aspx.designer.cs">
-      <DependentUpon>Issue Requester.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForms\Admin\Ordering Request.aspx.cs">
-      <DependentUpon>Ordering Request.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\rtl.aspx.cs">
+      <DependentUpon>rtl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForms\Admin\Ordering Request.aspx.designer.cs">
-      <DependentUpon>Ordering Request.aspx</DependentUpon>
+    <Compile Include="WebForms\Admin\rtl.aspx.designer.cs">
+      <DependentUpon>rtl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Admin\Sign-In.aspx.cs">
+      <DependentUpon>Sign-In.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Admin\Sign-In.aspx.designer.cs">
+      <DependentUpon>Sign-In.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Admin\Sign-Up.aspx.cs">
+      <DependentUpon>Sign-Up.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Admin\Sign-Up.aspx.designer.cs">
+      <DependentUpon>Sign-Up.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Admin\Tables.aspx.cs">
+      <DependentUpon>Tables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Admin\Tables.aspx.designer.cs">
+      <DependentUpon>Tables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Admin\Virtual Reality.aspx.cs">
+      <DependentUpon>Virtual Reality.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Admin\Virtual Reality.aspx.designer.cs">
+      <DependentUpon>Virtual Reality.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
