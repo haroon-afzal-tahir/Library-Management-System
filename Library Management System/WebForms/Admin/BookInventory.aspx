@@ -283,10 +283,10 @@
     <!-- End Navbar -->
     <div class="container-fluid py-4">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
           <div class="row">
             
-            <div class="col-xl-6">
+            <div class="col-xl-10">
               <div class="row">
                 <div class="col-md-6">
                   <div class="card">
