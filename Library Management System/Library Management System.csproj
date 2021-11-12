@@ -226,8 +226,8 @@
     <Content Include="WebForms\Admin\Sign-In.aspx" />
     <Content Include="WebForms\Admin\Sign-Up.aspx" />
     <Content Include="WebForms\Admin\Management.aspx" />
-    <Content Include="WebForms\Users\Book Discussion Room.aspx" />
-    <Content Include="WebForms\Users\Book Issue.aspx" />
+    <Content Include="WebForms\Users\Discussion Room.aspx" />
+    <Content Include="WebForms\Users\Books.aspx" />
     <Content Include="WebForms\Users\Dashboard.aspx" />
     <Content Include="WebForms\Users\History.aspx" />
     <Content Include="WebForms\Users\Membership.aspx" />
@@ -647,19 +647,19 @@
     <Compile Include="WebForms\Admin\Management.aspx.designer.cs">
       <DependentUpon>Management.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForms\Users\Book Discussion Room.aspx.cs">
-      <DependentUpon>Book Discussion Room.aspx</DependentUpon>
+    <Compile Include="WebForms\Users\Discussion Room.aspx.cs">
+      <DependentUpon>Discussion Room.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForms\Users\Book Discussion Room.aspx.designer.cs">
-      <DependentUpon>Book Discussion Room.aspx</DependentUpon>
+    <Compile Include="WebForms\Users\Discussion Room.aspx.designer.cs">
+      <DependentUpon>Discussion Room.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForms\Users\Book Issue.aspx.cs">
-      <DependentUpon>Book Issue.aspx</DependentUpon>
+    <Compile Include="WebForms\Users\Books.aspx.cs">
+      <DependentUpon>Books.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForms\Users\Book Issue.aspx.designer.cs">
-      <DependentUpon>Book Issue.aspx</DependentUpon>
+    <Compile Include="WebForms\Users\Books.aspx.designer.cs">
+      <DependentUpon>Books.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForms\Users\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>

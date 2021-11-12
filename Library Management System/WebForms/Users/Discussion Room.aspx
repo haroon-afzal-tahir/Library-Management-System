@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BookInventory.aspx.cs" Inherits="Library_Management_System.WebForms.Admin.Billing" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Discussion Room.aspx.cs" Inherits="Library_Management_System.WebForms.Admin.Billing" %>
 
 <!DOCTYPE html>
 
@@ -57,7 +57,7 @@
 		  </a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link  active" href="Book Issue.aspx">
+		  <a class="nav-link " href="Books.aspx">
 			<div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
 			  <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<title>office</title>
@@ -73,11 +73,11 @@
 				</g>
 			  </svg>
 			</div>
-			<span class="nav-link-text ms-1">Issue a Book</span>
+			<span class="nav-link-text ms-1">Books</span>
 		  </a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link  " href="Book Discussion Rooom.aspx">
+		  <a class="nav-link  active" href="Discussion Room.aspx">
 			<div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
 			  <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<title>credit-card</title>
@@ -93,7 +93,7 @@
 				</g>
 			  </svg>
 			</div>
-			<span class="nav-link-text ms-1">Book Discussion Room</span>
+			<span class="nav-link-text ms-1">Discussion Rooms</span>
 		  </a>
 		</li>
 		<li class="nav-item">
@@ -193,9 +193,9 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pages</a></li>
-            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Issue A Book</li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Discussion Rooms</li>
           </ol>
-          <h6 class="font-weight-bolder mb-0">Issue A Book</h6>
+          <h6 class="font-weight-bolder mb-0">Discussion Rooms</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -318,8 +318,8 @@
                       </div>
                     </div>
                     <div class="card-body pt-0 p-3 text-center">
-                      <h6 class="text-center mb-0">Books Issued This Month</h6>
-                      <span class="text-xs">Total</span>
+                      <h6 class="text-center mb-0">Rooms Booked</h6>
+                      <span class="text-xs">This Month</span>
                       <hr class="horizontal dark my-3">
                       <h5 class="mb-0">3</h5>
                     </div>
@@ -333,10 +333,10 @@
                       </div>
                     </div>
                     <div class="card-body pt-0 p-3 text-center">
-                      <h6 class="text-center mb-0">Books Ordered This Month</h6>
+                      <h6 class="text-center mb-0">Rooms Booked</h6>
                       <span class="text-xs">Total</span>
                       <hr class="horizontal dark my-3">
-                      <h5 class="mb-0">0</h5>
+                      <h5 class="mb-0">10</h5>
                     </div>
                   </div>
                 </div>
@@ -344,55 +344,51 @@
             </div>
              
         </div>
-            <%-- <div class="row">
+             <div class="row">
              <div class="mt-3">
-                      <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i class="fas fa-plus"></i>&nbsp;&nbsp;Issue A New Book</a> 
-                 <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i class="fas fa-plus"></i>&nbsp;&nbsp;Order A New Book</a>
+                      <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i class="fas fa-plus"></i>&nbsp;&nbsp;Book A New Room</a> 
                  </div>
 
-          </div>--%>
+          </div>
         
       </div>
       <div class="row">
-        <div class="col-md-6 mt-4">
-            
-             <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i class="fas fa-plus"></i>&nbsp;&nbsp;Issue A New Book</a> 
+        <div class="col-md-10 mt-4">
                 
           <div class="card">
 
             <div class="card-header pb-0 px-3">
-              <h6 class="mb-0">Book Issue History</h6>
+              <h6 class="mb-0">Discussion Rooms Booking History</h6>
             </div>
             <div class="card-body pt-4 p-3">
               <ul class="list-group">
                 <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
                   <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">The Alchemist</h6>
-                    <span class="mb-2 text-xs">Author Name:<span class="text-dark font-weight-bold ms-sm-2">Paulo Cohelo</span></span>
-                    <span class="mb-2 text-xs">ISSN:<span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
-                     <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Ordinary</span></span>
-                    <span class="text-xs">Category:<span class="text-dark ms-sm-2 font-weight-bold">Novel</span></span>
+                    <h6 class="mb-3 text-sm">Discussion Room 6</h6>
+                    <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">11/11/2021</span></span>
+                    <span class="mb-2 text-xs">Starting Time:<span class="text-dark ms-sm-2 font-weight-bold">09:00</span></span>
+                    <span class="text-xs">Ending Time:<span class="text-dark ms-sm-2 font-weight-bold">12:00</span></span>
                      
                   </div>
                  
                 </li>
                 <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
                   <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Fundamentals of DataBase Systems (7th Edition)</h6>
-                    <span class="mb-2 text-xs">Author Name:<span class="text-dark font-weight-bold ms-sm-2">Elmasri</span></span>
-                    <span class="mb-2 text-xs">ISSN: <span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
-                      <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Ordinary</span></span>
-                    <span class="text-xs">Category: <span class="text-dark ms-sm-2 font-weight-bold">Informative</span></span>
+                    <h6 class="mb-3 text-sm">Discussion Room 2</h6>
+                    <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">9/10/2021</span></span>
+                    <span class="mb-2 text-xs">Starting Time:<span class="text-dark ms-sm-2 font-weight-bold">13:00</span></span>
+                    <span class="text-xs">Ending Time:<span class="text-dark ms-sm-2 font-weight-bold">14:00</span></span>
+                     
                   </div>
                   
                 </li>
                 <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
-                  <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Muqaddimah</h6>
-                    <span class="mb-2 text-xs">Author Name: <span class="text-dark font-weight-bold ms-sm-2">Ibn Khaldun</span></span>
-                    <span class="mb-2 text-xs">ISSN: <span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
-                      <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Premium</span></span>
-                    <span class="text-xs">Category: <span class="text-dark ms-sm-2 font-weight-bold">History</span></span>
+                 <div class="d-flex flex-column">
+                    <h6 class="mb-3 text-sm">Discussion Room 4</h6>
+                    <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">09/12/2020</span></span>
+                    <span class="mb-2 text-xs">Starting Time:<span class="text-dark ms-sm-2 font-weight-bold">16:00</span></span>
+                    <span class="text-xs">Ending Time:<span class="text-dark ms-sm-2 font-weight-bold">17:00</span></span>
+                     
                   </div>
              
                 </li>
@@ -403,52 +399,7 @@
             
 
         </div>
-          <div class="col-md-6 mt-4">
-              <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i class="fas fa-plus"></i>&nbsp;&nbsp;Order A New Book</a>
-          <div class="card">
-            <div class="card-header pb-0 px-3">
-              <h6 class="mb-0">Book Order History</h6>
-            </div>
-            <div class="card-body pt-4 p-3">
-              <ul class="list-group">
-                <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
-                  <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">The Alchemist</h6>
-                    <span class="mb-2 text-xs">Author Name:<span class="text-dark font-weight-bold ms-sm-2">Paulo Cohelo</span></span>
-                    <span class="mb-2 text-xs">ISSN:<span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
-                     <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Ordinary</span></span>
-                    <span class="text-xs">Category:<span class="text-dark ms-sm-2 font-weight-bold">Novel</span></span>
-                     
-                  </div>
-                
-                </li>
-                <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
-                  <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Fundamentals of DataBase Systems (7th Edition)</h6>
-                    <span class="mb-2 text-xs">Author Name:<span class="text-dark font-weight-bold ms-sm-2">Elmasri</span></span>
-                    <span class="mb-2 text-xs">ISSN: <span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
-                      <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Ordinary</span></span>
-                    <span class="text-xs">Category: <span class="text-dark ms-sm-2 font-weight-bold">Informative</span></span>
-                  </div>
-                 
-                </li>
-                <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
-                  <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Muqaddimah</h6>
-                    <span class="mb-2 text-xs">Author Name: <span class="text-dark font-weight-bold ms-sm-2">Ibn Khaldun</span></span>
-                    <span class="mb-2 text-xs">ISSN: <span class="text-dark ms-sm-2 font-weight-bold">157355849394856</span></span>
-                      <span class="mb-2 text-xs">Type:<span class="text-dark ms-sm-2 font-weight-bold">Premium</span></span>
-                    <span class="text-xs">Category: <span class="text-dark ms-sm-2 font-weight-bold">History</span></span>
-                  </div>
-                  
-                </li>
-              </ul>
-            </div>
-            
-          </div>
-             
-
-        </div>
+          
       </div>
       </div>
       <footer class="footer pt-3  ">
