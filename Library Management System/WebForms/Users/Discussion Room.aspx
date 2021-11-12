@@ -314,7 +314,7 @@
                   <div class="card">
                     <div class="card-header mx-4 p-3 text-center">
                       <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                        <i class="fas fa-book opacity-10"></i>
+                        <i class="fas fa-chalkboard opacity-10"></i>
                       </div>
                     </div>
                     <div class="card-body pt-0 p-3 text-center">
@@ -329,7 +329,7 @@
                   <div class="card">
                     <div class="card-header mx-4 p-3 text-center">
                       <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                        <i class="fas fa-book opacity-10"></i>
+                        <i class="fas fa-chalkboard opacity-10"></i>
                       </div>
                     </div>
                     <div class="card-body pt-0 p-3 text-center">
