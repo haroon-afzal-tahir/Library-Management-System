@@ -370,8 +370,7 @@
                    <div class="d-flex flex-column">
                     <h6 class="mb-3 text-sm">Spring 2020</h6>
                     <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">01/04/2020</span></span>
-                   
-                     
+                  
                   </div>
              
                 </li>
