@@ -310,7 +310,7 @@
             
             <div class="col-xl-10">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-10">
                   <div class="card">
                     <div class="card-header mx-4 p-3 text-center">
                       <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
@@ -318,35 +318,21 @@
                       </div>
                     </div>
                     <div class="card-body pt-0 p-3 text-center">
-                      <h6 class="text-center mb-0">Rooms Booked</h6>
-                      <span class="text-xs">This Month</span>
+                      <h6 class="text-center mb-0">Membership Status</h6>
+                      <span class="text-xs">This Semester</span>
                       <hr class="horizontal dark my-3">
-                      <h5 class="mb-0">3</h5>
+                      <h5 class="mb-0">Active</h5>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 mt-md-0 mt-4">
-                  <div class="card">
-                    <div class="card-header mx-4 p-3 text-center">
-                      <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                        <i class="fas fa-book opacity-10"></i>
-                      </div>
-                    </div>
-                    <div class="card-body pt-0 p-3 text-center">
-                      <h6 class="text-center mb-0">Rooms Booked</h6>
-                      <span class="text-xs">Total</span>
-                      <hr class="horizontal dark my-3">
-                      <h5 class="mb-0">10</h5>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
              
         </div>
              <div class="row">
              <div class="mt-3">
-                      <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i class="fas fa-plus"></i>&nbsp;&nbsp;Book A New Room</a> 
+                      <a class="btn bg-gradient-dark mb-0" href="javascript:;"><i class="fas fa-plus"></i>&nbsp;&nbsp;Renew Membership</a> 
                  </div>
 
           </div>
@@ -358,36 +344,33 @@
           <div class="card">
 
             <div class="card-header pb-0 px-3">
-              <h6 class="mb-0">Discussion Rooms Booking History</h6>
+              <h6 class="mb-0">Membership Renewal History</h6>
             </div>
             <div class="card-body pt-4 p-3">
               <ul class="list-group">
                 <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
                   <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Discussion Room 6</h6>
+                    <h6 class="mb-3 text-sm">Fall 2021</h6>
                     <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">11/11/2021</span></span>
-                    <span class="mb-2 text-xs">Starting Time:<span class="text-dark ms-sm-2 font-weight-bold">09:00</span></span>
-                    <span class="text-xs">Ending Time:<span class="text-dark ms-sm-2 font-weight-bold">12:00</span></span>
+                   
                      
                   </div>
                  
                 </li>
                 <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
-                  <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Discussion Room 2</h6>
-                    <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">9/10/2021</span></span>
-                    <span class="mb-2 text-xs">Starting Time:<span class="text-dark ms-sm-2 font-weight-bold">13:00</span></span>
-                    <span class="text-xs">Ending Time:<span class="text-dark ms-sm-2 font-weight-bold">14:00</span></span>
+                    <div class="d-flex flex-column">
+                    <h6 class="mb-3 text-sm">Spring 2021</h6>
+                    <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">23/03/2021</span></span>
+                   
                      
                   </div>
                   
                 </li>
                 <li class="list-group-item border-0 d-flex p-4 mb-2 mt-3 bg-gray-100 border-radius-lg">
-                 <div class="d-flex flex-column">
-                    <h6 class="mb-3 text-sm">Discussion Room 4</h6>
-                    <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">09/12/2020</span></span>
-                    <span class="mb-2 text-xs">Starting Time:<span class="text-dark ms-sm-2 font-weight-bold">16:00</span></span>
-                    <span class="text-xs">Ending Time:<span class="text-dark ms-sm-2 font-weight-bold">17:00</span></span>
+                   <div class="d-flex flex-column">
+                    <h6 class="mb-3 text-sm">Spring 2020</h6>
+                    <span class="mb-2 text-xs">Date:<span class="text-dark font-weight-bold ms-sm-2">01/04/2020</span></span>
+                   
                      
                   </div>
              

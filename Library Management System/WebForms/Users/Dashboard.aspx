@@ -340,7 +340,7 @@
 				</div>
 				<div class="col-4 text-end">
 				  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-					  <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+					  <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
 				  </div>
 				</div>
 			  </div>
@@ -361,7 +361,7 @@
 				</div>
 				<div class="col-4 text-end">
 				  <div class="icon icon-shape bg-gradient-primary shadow text-center border-radius-md">
-					<i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i>
+					<i class="fas fa-book opacity-10" aria-hidden="true"></i>
 				  </div>
 				</div>
 			  </div>
@@ -399,7 +399,7 @@
 				  <div class="d-flex flex-column h-100">
 					<h5 class="font-weight-bolder">Membership Status</h5>
 					<p class="mb-5">View Your Mempership Status By Clicking Here</p>
-					<a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:;">
+					<a class="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="Membership.aspx">
 					  View Membership Status
 					  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
 					</a>
