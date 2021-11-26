@@ -110,7 +110,7 @@ AS
 BEGIN
 	IF EXISTS(SELECT* FROM Users WHERE Users.Username= @USER_NAME AND Users.Password= @PASSWORD)
 	BEGIN
-	PRINT('USER EXISTS')
+	PRINT('User Logged In')
 	END
 	ELSE
 	BEGIN 
