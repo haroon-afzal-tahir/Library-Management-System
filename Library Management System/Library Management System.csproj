@@ -184,6 +184,7 @@
     <Content Include="Database\Admin.sql" />
     <Content Include="Database\Book Issue.sql" />
     <Content Include="Database\Books.sql" />
+    <Content Include="Database\DATABASE.sql" />
     <Content Include="Database\Fine.sql" />
     <Content Include="Database\Information.sql" />
     <Content Include="Database\Library Management System.sql" />
