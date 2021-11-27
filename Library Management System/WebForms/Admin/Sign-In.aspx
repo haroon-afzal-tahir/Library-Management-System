@@ -51,12 +51,6 @@
 				  </a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link me-2" href="Profile.aspx">
-					<i class="fa fa-user opacity-6 text-dark me-1"></i>
-					Profile
-				  </a>
-				</li>
-				<li class="nav-item">
 				  <a class="nav-link me-2" href="Sign-Up.aspx">
 					<i class="fas fa-user-circle opacity-6 text-dark me-1"></i>
 					Sign Up
@@ -91,18 +85,18 @@
 				  <form role="form" runat="server">
 					<label>Email</label>
 					<div class="mb-3">
-					  <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon" runat="server">
+					  <input id="email" type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon" runat="server">
 					</div>
 					<label>Password</label>
 					<div class="mb-3">
-					  <input type="email" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon" runat="server">
+					  <input id="password" type="email" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon" runat="server">
 					</div>
 					<div class="form-check form-switch">
 					  <input class="form-check-input" type="checkbox" id="rememberMe" checked="" runat="server">
 					  <label class="form-check-label" for="rememberMe">Remember me</label>
 					</div>
 					<div class="text-center">
-					  <button type="button" class="btn bg-gradient-info w-100 mt-4 mb-0" runat="server">Sign in</button>
+					  <button type="button" class="btn bg-gradient-info w-100 mt-4 mb-0" runat="server" onserverclick="Login">Sign in</button>
 					</div>
 				  </form>
 				</div>
