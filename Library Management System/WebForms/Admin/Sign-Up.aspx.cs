@@ -16,8 +16,8 @@ namespace Library_Management_System.WebForms.Admin {
 			string temp = RadioButton1.Text;
 			if (RadioButton2.Checked == true)
 				temp = RadioButton2.Text;
-			DAL.DAL.SignUp("1", "l192392@lhr.nu.edu.pk", "hello", "25", "32102-4989292-1", "0300-4135675", "Testing 123", temp);
 
+			DAL.DAL.SignUp("1", "l192392@lhr.nu.edu.pk", "hello", "25", "32102-4989292-1", "0300-4135675", "Testing 123", temp);
 			Response.Redirect("Dashboard.aspx");
 			
 		}
