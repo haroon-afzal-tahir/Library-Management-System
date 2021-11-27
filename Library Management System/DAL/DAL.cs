@@ -12,7 +12,7 @@ namespace Library_Management_System.DAL {
 	public class DAL {
 		public static char[] charsToTrim = { '*', '.', ',', '[', ']', '{', '}', '"', '_', '!', '#', '$', '%', '^', '&', '(', ')', '=', '/', '?', '|', '>', '<', ' ' };
 		public static string SetConnectionString() {
-			string ModifiedString = ConfigurationManager.ConnectionStrings["LAPTOP-5BVFKUV9"].ConnectionString;
+			string ModifiedString = ConfigurationManager.ConnectionStrings["conString"].ConnectionString;
 			string ComputerName = Environment.MachineName;
 
 			int start = ModifiedString.IndexOf('=');
