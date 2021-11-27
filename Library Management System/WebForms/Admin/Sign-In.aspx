@@ -25,14 +25,12 @@
 </head>
 
 <body class="">
-  <div class="container position-sticky z-index-sticky top-0">
-	<div class="row">
-	  <div class="col-12">
+  <div class="container position-sticky z-index-sticky top-0" runat="server">
+	<div class="row" runat="server">
+	  <div class="col-12" runat="server">
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
-		  <div class="container-fluid">
-<%--<img src="../../assets/img/reading.png" class="navbar-brand-img h-100" alt="main_logo">--%>
-
+		  <div class="container-fluid" runat="server">
 			<a class="navbar-brand m-0" href="Dashboard.aspx">
 				<img src="../../assets/img/reading.png" alt="main_logo" height="30"/>
 				<span class="ms-1 font-weight-bold">Gul Muhammad Library</span>
@@ -90,28 +88,28 @@
 				  <p class="mb-0">Enter your email and password to sign in</p>
 				</div>
 				<div class="card-body">
-				  <form role="form">
+				  <form role="form" runat="server">
 					<label>Email</label>
 					<div class="mb-3">
-					  <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
+					  <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon" runat="server">
 					</div>
 					<label>Password</label>
 					<div class="mb-3">
-					  <input type="email" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon">
+					  <input type="email" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="password-addon" runat="server">
 					</div>
 					<div class="form-check form-switch">
-					  <input class="form-check-input" type="checkbox" id="rememberMe" checked="">
+					  <input class="form-check-input" type="checkbox" id="rememberMe" checked="" runat="server">
 					  <label class="form-check-label" for="rememberMe">Remember me</label>
 					</div>
 					<div class="text-center">
-					  <button type="button" class="btn bg-gradient-info w-100 mt-4 mb-0">Sign in</button>
+					  <button type="button" class="btn bg-gradient-info w-100 mt-4 mb-0" runat="server">Sign in</button>
 					</div>
 				  </form>
 				</div>
 				<div class="card-footer text-center pt-0 px-lg-2 px-1">
 				  <p class="mb-4 text-sm mx-auto">
 					Don't have an account?
-					<a href="javascript:;" class="text-info text-gradient font-weight-bold">Sign up</a>
+					<a href="Sign-Up.aspx" class="text-info text-gradient font-weight-bold">Sign up</a>
 				  </p>
 				</div>
 			  </div>
