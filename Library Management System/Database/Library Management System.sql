@@ -24,12 +24,8 @@ INSERT INTO USERS
 VALUES	('Haroon Tahir', 'l192392@lhr.nu.edu.pk', 'zxasqw123edc', 20, '32102-4989292-1', '0311-1288814', NULL, 'Admin'),
 		('Ahmed Khan', 'l191014@lhr.nu.edu.pk', 'zxasqw123edc', 22, '54400-4913171-3', '0321-3758938', NULL, 'Admin')
 
-SELECT * FROM USERS
 
 CREATE TABLE Book (
-	/*
-		Book_ID, Book_Name, Book_Type, Author Name, Category
-	*/
 	[Book ID] INT NOT NULL PRIMARY KEY,
 	[Book Name] VARCHAR(20) NOT NULL,
 	[Book Type] VARCHAR(20) CHECK([Book Type] IN ('Premium', 'Regular')),
@@ -41,11 +37,8 @@ CREATE TABLE [Book Issue] (
 	[Book ID] INT FOREIGN KEY REFERENCES Book([Book ID]),
 	[Issue Date] DATE,
 	[Due Date] DATE,
-	/*
-		User_ID, Book_ID, Issue_Date, Due_Date
-	*/
 )
-CREATE TABLE Fine (	
+CREATE TABLE Fine (
 	[Fine ID] INT NOT NULL PRIMARY KEY,
 	[Student ID] INT FOREIGN KEY REFERENCES Users([User ID]),
 	[Book ID] INT FOREIGN KEY REFERENCES Book([Book ID]),
@@ -72,12 +65,15 @@ CREATE TABLE Rooms (
 		[Room ID] INT PRIMARY KEY,
 		[Capacity] INT,
 )
-CREATE TABLE [Room Booking] 
+INSERT INTO Rooms VALUES (1, 6), (2, 6), (3, 6), (4, 6), (5, 6), (6, 6)
+
+
+CREATE TABLE [Room Booking]
 (
 
 	[Booking ID] INT NOT NULL PRIMARY KEY,
 	[User ID] INT FOREIGN KEY REFERENCES Users([User ID]),
-	[Room ID] INT FOREIGN KEY REFERENCES Rooms([Room ID]),
+	[Room ID] INT FOREIGN KEY REFERENCES Rooms([Room ID]) ON DELETE NO ACTION ON UPDATE NO ACTION,
 	[Start Time] DATE,
 	[End Time] DATE,
 	[Booking Date] DATE,
@@ -133,3 +129,6 @@ END
 GO
 
 
+
+SELECT * FROM USERS
+SELECT * FROM Rooms
