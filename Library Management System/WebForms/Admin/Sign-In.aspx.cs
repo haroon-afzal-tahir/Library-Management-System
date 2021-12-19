@@ -15,7 +15,7 @@ namespace Library_Management_System.WebForms.Admin {
 		}
 		protected void Login(object sender, EventArgs e)
 		{
-			if (DAL.DAL.Log_In(email, password) == null)
+			if (DAL.DAL.Log_In(email.Value, password.Value) == null)
 			{
 				Response.Redirect("Dashboard.aspx");
 			}

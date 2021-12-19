@@ -17,9 +17,9 @@ namespace Library_Management_System.WebForms.Admin {
 			if (RadioButton2.Checked == true)
 				temp = RadioButton2.Text;
 
-			DAL.DAL.SignUp("1", "l192392@lhr.nu.edu.pk", "hello", "25", "32102-4989292-1", "0300-4135675", "Testing 123", temp);
-			Response.Redirect("Dashboard.aspx");
-			
+			if (DAL.DAL.SignUp(name1.Text, email1.Text, password1.Text, int.Parse(age1.Text), cnic1.Text, phoneNum1.Text, "Testing 123", temp)) {
+				Response.Redirect("Dashboard.aspx"); 
+			}
 		}
 	}
 }
